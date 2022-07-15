@@ -25,3 +25,21 @@ html {
 .loginAndRegBox .reg-box {
   display: none;
 }
+.loginAndRegBox .layui-form {
+  padding: 0 20px;
+}
+.loginAndRegBox .links {
+  display: flex;
+  justify-content: flex-end;
+}
+.loginAndRegBox .layui-form-item {
+  position: relative;
+}
+.loginAndRegBox .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.loginAndRegBox .layui-input {
+  padding-left: 30px;
+}
