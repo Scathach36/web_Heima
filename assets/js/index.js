@@ -55,7 +55,7 @@ function renderAvatar(user) {
     } else {
         $('.layui-nav-img').hide()
         // 获取第一个字母
-        let first = user.username[0].toUpperCase()
+        let first = name[0].toUpperCase()
         $('.text-avatar').html(first).show()
     }
 }
