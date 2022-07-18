@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 15px;
+  background-color: #f2f3f5;
+}
+.layui-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+#form-addCate,
+#form-editCate {
+  margin-top: 15px;
+  padding-right: 30px;
+}
